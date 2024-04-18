@@ -1,1 +1,3 @@
 # SimpleParser
+
+This project is a simple C-based parser for an imaginary programming language with Fortran-style syntax. The program performs basic lexical analysis and tokenization of a provided source code file (in the front.c code), then parses the provided tokens with a basic recursive-descent style parser. Unknown tokens or syntax errors discovered during parsing are reported via output and will halt the program. In order to run, compile front.c into an exectuable, either manually or with a suitable makefile, then execute the program via command-line, providing a single argument with the path to the source code file to be parsed. 
