@@ -57,7 +57,7 @@ int main(int argc, char* argv[])
         return 3;
     }
 
-    printf("DCooke Parser :: R11817086\n\n");
+    printf("DCooke Parser\n\n");
     
     //Parse the contents of the provided source file using the syntax analyzer.
     getChar();
